@@ -1,0 +1,14 @@
+#Finding sum of elements present in array of even index
+
+
+n=int(input('enter the size'))
+l=[]
+for i in range(1,n+1):
+    j=int(input())
+    l.append(j)
+print(l)
+k=[]
+for j in l[::2]:
+    k.append(j)
+print(k)
+print(sum(k))  
