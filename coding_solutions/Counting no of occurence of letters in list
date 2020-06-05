@@ -1,0 +1,24 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+li=map(int,input().split(' '))
+p=list(li)
+j=[]
+
+for i in p:
+    k=p.count(i)
+    j.append(k)
+print(j)
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
